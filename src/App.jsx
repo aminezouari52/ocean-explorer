@@ -1,12 +1,20 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "@/components/Home";
+import SkipContent from "@/components/SkipContent";
 
 const App = () => {
   return (
     <>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-      </Routes>
+      <SkipContent />
+      <header>HEADER CONTENT</header>
+      <main>
+        <button
+          role="button"
+          type="button"
+          onClick={() => console.log("hllo world")}
+        >
+          hello
+        </button>
+      </main>
+      <footer></footer>
     </>
   );
 };

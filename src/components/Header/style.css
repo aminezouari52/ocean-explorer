@@ -1,0 +1,25 @@
+header {
+  background-color: red;
+}
+
+@media (width <= 1200px) {
+  /* mobile layout */
+  header {
+    background-color: blue;
+    /* background: var(--qds-theme-main-subsection-standard-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    transition: box-shadow 0.3s ease; */
+  }
+
+  .is-mobile {
+    display: flex;
+  }
+
+  .is-web {
+    display: none;
+  }
+}
