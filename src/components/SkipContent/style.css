@@ -1,0 +1,14 @@
+.skip-content {
+  position: absolute;
+  z-index: 999;
+  opacity: 0;
+  text-decoration: none;
+  font-size: 12px;
+  top: 12px;
+
+  &:focus {
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 1;
+  }
+}
