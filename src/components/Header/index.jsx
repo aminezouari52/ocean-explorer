@@ -23,15 +23,13 @@ const Header = () => {
   return (
     <header className={isAtTop ? "" : "shadow"}>
       <div className="start">
-        <a className="img-link" href="www.example.com">
-          <img className="se-logo" src={logo} alt="Schneider Electric" />
+        <a className="img-link" href="/" aria-label="page d'acceil">
+          <img className="logo" src={logo} alt="Logo Explorateur Oceanique" />
         </a>
         <nav aria-label="Main menu">
           <ul className="list">
-            <NavItem title="one" />
-            <NavItem title="two" />
-            <NavItem title="three" />
-            <NavItem title="four" />
+            <NavItem href="intro" title="intro" />
+            <NavItem href="animals" title="animals" />
           </ul>
         </nav>
       </div>

@@ -19,6 +19,7 @@ const SkipContent = () => {
       type="button"
       role="link"
       className="skip-content"
+      aria-label="passer au contenu principal"
       onClick={skipMainContentHandler}
     >
       Passer au contenu principal

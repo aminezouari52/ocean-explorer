@@ -1,13 +1,20 @@
 .tab-button {
-  padding: 24px;
+  padding: 24px 24px 0 24px;
   border: none;
   background-color: none;
   cursor: pointer;
   font-size: large;
+  display: flex;
+  flex-direction: column;
 
   &:focus-visible {
-    outline: blue solid 2px;
+    outline: #618bbd solid 2px;
     border-radius: 4px;
     outline-offset: -1px;
   }
+}
+
+.tab-line {
+  background-color: #1d63b7;
+  height: 4px;
 }
