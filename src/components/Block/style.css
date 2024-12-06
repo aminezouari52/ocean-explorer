@@ -1,0 +1,92 @@
+.block-hero {
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.block-hero__video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.block-hero__content {
+  position: absolute;
+  padding: 1.5rem;
+  inset: 0;
+}
+
+.block-hero__kicker {
+  font-size: 0.8rem;
+}
+
+.block-hero__title {
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+.block-hero__subtitle {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 0.3rem;
+}
+
+.block-hero__description {
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.block-hero__description-list {
+  list-style: circle;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.cta-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button--link {
+  background-color: transparent;
+  color: #0077b6; 
+  text-decoration: none;
+  border: 2px solid #0075a3;
+}
+
+.cta-button--link:hover {
+  background-color: #0075a3;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.cta-button--primary {
+  background-color: #005f86;
+  color: #ffffff;
+}
+
+.cta-button--primary:hover {
+  background-color: #00496a;
+  transform: scale(1.05);
+}
