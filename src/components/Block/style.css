@@ -70,23 +70,23 @@
 
 .cta-button--link {
   background-color: transparent;
-  color: #0077b6; 
+  color: #618bbd;
   text-decoration: none;
-  border: 2px solid #0075a3;
+  border: 2px solid #618bbd;
 }
 
 .cta-button--link:hover {
-  background-color: #0075a3;
+  background-color: #618bbd;
   color: #ffffff;
   transform: scale(1.05);
 }
 
 .cta-button--primary {
-  background-color: #005f86;
+  background-color: #618bbd;
   color: #ffffff;
 }
 
 .cta-button--primary:hover {
-  background-color: #00496a;
+  background-color: #618bbd;
   transform: scale(1.05);
 }

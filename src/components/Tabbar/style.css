@@ -21,3 +21,9 @@
 .content-link:hover {
   text-decoration: underline;
 }
+
+.panel-img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Prevents inline block spacing issues */
+}

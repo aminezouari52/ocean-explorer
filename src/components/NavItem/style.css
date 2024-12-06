@@ -13,7 +13,7 @@
   width: auto;
 
   &:focus-visible {
-    outline: blue solid 2px;
+    outline: #618bbd solid 2px;
     border-radius: 4px;
     outline-offset: -1px;
   }
@@ -34,11 +34,11 @@
 }
 
 .tabs-item:hover .line {
-  background: blue;
+  background: #618bbd;
 }
 
 .tabs-item:active .line {
-  background: green;
+  background: #1d63b7;
 }
 
 .li-nav-item {

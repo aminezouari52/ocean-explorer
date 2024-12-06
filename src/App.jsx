@@ -8,15 +8,10 @@ const App = () => {
     <>
       <SkipContent />
       <Header />
-      <main id="main">
+      <main role="main" id="main">
         <Block />
         <h2>Animaux marins</h2>
         <Tabbar />
-        <h3>subsection title</h3>
-        <h2>section title 2</h2>
-        <h3>subsection title</h3>
-        <h2>section title 3</h2>
-        <h3>subsection title</h3>
       </main>
       <footer></footer>
     </>

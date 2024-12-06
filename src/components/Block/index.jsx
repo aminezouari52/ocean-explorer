@@ -17,7 +17,7 @@ const Block = () => {
   const videoSrc = "https://sample-videos.com/video123/mp4/720/ocean-view.mp4";
 
   return (
-    <section aria-label={mainTitle} className="block-hero">
+    <section id="intro" aria-label={mainTitle} className="block-hero">
       {/* Video as background */}
       <Video
         src={videoSrc}

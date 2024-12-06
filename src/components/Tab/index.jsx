@@ -4,6 +4,7 @@ const Tab = ({ id, panel, selected, label, onClick }) => {
   return (
     <button
       className="tab-button"
+      aria-label={label + "tab"}
       id={id}
       aria-controls={panel}
       aria-selected={selected}
@@ -11,7 +12,8 @@ const Tab = ({ id, panel, selected, label, onClick }) => {
       tabIndex={selected ? "0" : "-1"}
       onClick={onClick}
     >
-      {label}
+      <p>{label}</p>
+      {selected && <div class="tab-line"></div>}
     </button>
   );
 };

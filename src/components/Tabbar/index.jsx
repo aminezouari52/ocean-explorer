@@ -55,20 +55,9 @@ const Tabbar = () => {
     };
   }, []);
 
-  const handleTabClick = (index) => {
-    const tabs = Array.from(tabbarRef.current.querySelectorAll("[role='tab']"));
-    const panels = document.querySelectorAll("[role='tabpanel']");
-
-    tabs.forEach((tab, i) => {
-      const isActive = i === index;
-      tab.setAttribute("aria-selected", isActive);
-      tab.tabIndex = isActive ? "0" : "-1";
-      panels[i].hidden = !isActive;
-    });
-  };
-
   return (
     <ul
+      id="animals"
       className="tabbar-ul"
       ref={tabbarRef}
       role="tablist"
@@ -120,8 +109,13 @@ const Tabbar = () => {
           hidden={activeIndex !== index}
         >
           <div className="content">
-            <img src={content.src} alt={content.alt} />
-            <a href={content.href} target="_blank" className="content-link">
+            <img className="panel-img" src={content.src} alt={content.alt} />
+            <a
+              aria-label="en savoir plus"
+              href={content.href}
+              target="_blank"
+              className="content-link"
+            >
               En savoir plus
             </a>
           </div>
