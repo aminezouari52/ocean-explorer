@@ -10,8 +10,7 @@ const App = () => {
       <Header />
       <main role="main" id="main">
         <Block />
-        <h1>Welcome to our website!</h1>
-        <h2>Ocean Animals (h2)</h2>
+        <h2>Animaux marins</h2>
         <Tabbar />
       </main>
       <footer></footer>

@@ -26,7 +26,7 @@ const Header = () => {
         <a className="img-link" href="/" aria-label="page d'acceil">
           <img className="logo" src={logo} alt="Logo Explorateur Oceanique" />
         </a>
-        <nav aria-label="Main menu">
+        <nav aria-label="Le Menu">
           <ul className="list">
             <NavItem href="intro" title="intro" />
             <NavItem href="animals" title="animals" />

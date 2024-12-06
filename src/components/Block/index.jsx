@@ -3,16 +3,17 @@ import Video from "@/components/Video";
 import "./style.css";
 
 const Block = () => {
-  const mainTitle = "Dive Into the Depths";
-  const subtitle = "Discover the Wonders of the Ocean";
+  const mainTitle = "Plongez dans les Profondeurs";
+  const subtitle = "Découvrez les Merveilles de l'Océan";
   const description =
-    "Explore the mysteries of the deep blue sea. From vibrant coral reefs to majestic marine life, embark on an unforgettable underwater adventure.";
+    "Explorez les mystères de la mer bleue profonde. Des récifs coralliens vibrants à la majestueuse vie marine, embarquez pour une aventure sous-marine inoubliable.";
   const descriptionList = [
-    "Learn about ocean conservation",
-    "Experience breathtaking underwater visuals",
-    "Support sustainable marine ecosystems",
+    "Apprenez la conservation des océans",
+    "Vivez des visuels sous-marins à couper le souffle",
+    "Soutenez des écosystèmes marins durables",
   ];
-  const kicker = "The Adventure Awaits!";
+  const kicker = "L'Aventure Vous Attend !";
+
   const videoSrc = "https://sample-videos.com/video123/mp4/720/ocean-view.mp4";
 
   return (
@@ -41,22 +42,22 @@ const Block = () => {
         <div
           className="cta-container"
           role="group"
-          aria-label="Call to action buttons"
+          aria-label="Boutons d'appel à l'action"
         >
           <a
             href="/learn-more"
             className="cta-button cta-button--link"
             role="button"
-            aria-label="Learn more about our ocean adventures"
+            aria-label="En savoir plus sur nos aventures océaniques"
           >
-            Learn More
+            En savoir plus
           </a>
           <button
             className="cta-button cta-button--primary"
-            aria-label="Start your journey now"
-            onClick={() => alert("Starting your journey!")}
+            aria-label="Commencez votre voyage maintenant"
+            onClick={() => alert("Commencer le voyage!")}
           >
-            Get Started
+            Commencer
           </button>
         </div>
       </div>
