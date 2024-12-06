@@ -1,0 +1,13 @@
+.tab-button {
+  padding: 24px;
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  font-size: large;
+
+  &:focus-visible {
+    outline: blue solid 2px;
+    border-radius: 4px;
+    outline-offset: -1px;
+  }
+}

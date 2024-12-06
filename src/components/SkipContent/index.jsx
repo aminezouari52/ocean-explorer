@@ -3,10 +3,14 @@ import "./style.css";
 const SkipContent = () => {
   const skipMainContentHandler = (event) => {
     event.preventDefault();
-    const mainContent = document.querySelector("main");
-    if (mainContent) {
-      mainContent.setAttribute("tabindex", "-1");
-      mainContent.focus({ preventScroll: true });
+    const main = document.querySelector("main");
+    if (main) {
+      const firstFocusable = main.querySelector(
+        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+      );
+      if (firstFocusable) {
+        firstFocusable.focus();
+      }
     }
   };
 
