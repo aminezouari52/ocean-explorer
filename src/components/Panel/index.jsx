@@ -5,7 +5,7 @@ const Panel = ({ id, labeledBy, hidden, children }) => {
       role="tabpanel"
       aria-labelledby={labeledBy}
       tabIndex="-1"
-      aria-hidden={hidden}
+      hidden={hidden}
     >
       {children}
     </div>

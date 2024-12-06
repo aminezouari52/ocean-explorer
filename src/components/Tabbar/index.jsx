@@ -65,7 +65,6 @@ const Tabbar = () => {
     >
       <div
         ref={tabbarRef}
-        role="tablist"
         aria-label="Tabs Accessible"
         style={{
           display: "flex",
