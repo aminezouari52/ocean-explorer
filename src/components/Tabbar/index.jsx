@@ -63,14 +63,7 @@ const Tabbar = () => {
       role="tablist"
       aria-label="Liste des onglets pour les animaux marins"
     >
-      <div
-        ref={tabbarRef}
-        aria-label="Tabs Accessible"
-        style={{
-          display: "flex",
-          gap: "4px",
-        }}
-      >
+      <li role="presentation" ref={tabbarRef} class="tabb-li">
         {["Pingouin", "Méduse", "Orque"].map((label, index) => (
           <Tab
             label={label}
@@ -81,7 +74,7 @@ const Tabbar = () => {
             onClick={() => setActiveIndex(index)}
           />
         ))}
-      </div>
+      </li>
 
       {[
         {

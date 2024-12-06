@@ -27,3 +27,9 @@
   height: auto;
   display: block; /* Prevents inline block spacing issues */
 }
+
+.tabb-li {
+  display: flex;
+  gap: 4px;
+  list-style: none;
+}
