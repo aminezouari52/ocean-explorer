@@ -5,6 +5,7 @@
   text-decoration: none;
   font-size: 12px;
   top: 12px;
+  left: -500px;
 
   &:focus {
     left: 50%;

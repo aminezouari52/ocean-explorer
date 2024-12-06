@@ -1,0 +1,22 @@
+.tabbar-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.content {
+  position: relative;
+}
+
+.content-link {
+  position: absolute;
+  bottom: 24px;
+  left: 50px;
+  color: white;
+  font-size: x-large;
+}
+
+.content-link:hover {
+  text-decoration: underline;
+}
