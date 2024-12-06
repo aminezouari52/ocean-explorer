@@ -69,7 +69,7 @@ const Tabbar = () => {
 
   return (
     <ul
-      class="tabbar-ul"
+      className="tabbar-ul"
       ref={tabbarRef}
       role="tablist"
       aria-label="Ocean Life Tabs"
@@ -119,9 +119,9 @@ const Tabbar = () => {
           labeledBy={`tab${index}`}
           hidden={activeIndex !== index}
         >
-          <div class="content">
+          <div className="content">
             <img src={content.src} alt={content.alt} />
-            <a href="" target="_blank" class="content-link">
+            <a href={content.href} target="_blank" className="content-link">
               read more
             </a>
           </div>

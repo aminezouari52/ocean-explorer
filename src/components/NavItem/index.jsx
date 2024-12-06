@@ -2,7 +2,7 @@ import "./style.css";
 
 const NavItem = ({ title }) => {
   return (
-    <li role="tab">
+    <li className="li-nav-item" role="tab">
       <a className="tabs-item" href="#section-id">
         <div className="tab">{title}</div>
         <div className="line"></div>

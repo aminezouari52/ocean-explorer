@@ -5,9 +5,10 @@ header {
   position: fixed;
   background-color: #fcfcfc;
   z-index: 2;
+  height: 54px;
 }
 
-a {
+.img-link {
   display: block;
   width: 214.209px;
   height: 44px;

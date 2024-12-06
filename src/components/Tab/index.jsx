@@ -3,7 +3,7 @@ import "./style.css";
 const Tab = ({ id, panel, selected, label, onClick }) => {
   return (
     <button
-      class="tab-button"
+      className="tab-button"
       id={id}
       aria-controls={panel}
       aria-selected={selected}
