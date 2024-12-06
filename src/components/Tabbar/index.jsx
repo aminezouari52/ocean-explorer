@@ -72,18 +72,18 @@ const Tabbar = () => {
       className="tabbar-ul"
       ref={tabbarRef}
       role="tablist"
-      aria-label="Ocean Life Tabs"
+      aria-label="Liste des onglets pour les animaux marins"
     >
       <div
         ref={tabbarRef}
         role="tablist"
-        aria-label="Accessible Tabs"
+        aria-label="Tabs Accessible"
         style={{
           display: "flex",
           gap: "4px",
         }}
       >
-        {["Penguin", "Jellyfish", "Orca"].map((label, index) => (
+        {["Pingouin", "Méduse", "Orque"].map((label, index) => (
           <Tab
             label={label}
             key={index}
@@ -122,7 +122,7 @@ const Tabbar = () => {
           <div className="content">
             <img src={content.src} alt={content.alt} />
             <a href={content.href} target="_blank" className="content-link">
-              read more
+              En savoir plus
             </a>
           </div>
         </Panel>

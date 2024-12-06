@@ -10,8 +10,7 @@ const App = () => {
       <Header />
       <main id="main">
         <Block />
-        <h1>Welcome to our website!</h1>
-        <h2>Ocean Animals (h2)</h2>
+        <h2>Animaux marins</h2>
         <Tabbar />
         <h3>subsection title</h3>
         <h2>section title 2</h2>

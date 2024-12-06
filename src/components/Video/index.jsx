@@ -74,7 +74,7 @@ const Video = () => {
       {origin === "native" ? (
         <div className="video-wrapper">
           <video
-            aria-label="Sample video"
+            aria-label="Ocean video"
             muted={false}
             autoPlay={true && !prefersReducedMotion}
             loop={false}
@@ -88,7 +88,7 @@ const Video = () => {
             Your browser does not support the video.
           </video>
           <button
-            aria-label={`Play video`}
+            aria-label={`Lire la vidéos`}
             onClick={handlePlayPause}
             className="play-pause-button"
           >
@@ -107,11 +107,11 @@ const Video = () => {
           />
           <dialog
             ref={dialogElement}
-            aria-labelledby="Sample video"
+            aria-labelledby="Ocean video"
             className="modal-dialog"
           >
             <button
-              aria-label="Close video modal"
+              aria-label="Fermer video modal"
               onClick={handleCloseDialog}
               className="close-button"
             >
@@ -129,7 +129,7 @@ const Video = () => {
             />
           </dialog>
           <button
-            aria-label="Open video modal"
+            aria-label="Ouvrir video modal"
             onClick={handleOpenDialog}
             className="open-modal-button"
           >

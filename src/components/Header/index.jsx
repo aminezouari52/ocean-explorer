@@ -26,7 +26,7 @@ const Header = () => {
         <a className="img-link" href="www.example.com">
           <img className="se-logo" src={logo} alt="Schneider Electric" />
         </a>
-        <nav aria-label="Main menu">
+        <nav aria-label="Le Menu">
           <ul className="list">
             <NavItem title="one" />
             <NavItem title="two" />
