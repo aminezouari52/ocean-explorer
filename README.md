@@ -2,4 +2,4 @@
 
 ## task:
 
-Create a fully accessible website
+Create a fully accessible website in 10 hours
